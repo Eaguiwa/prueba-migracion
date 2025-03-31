@@ -20,8 +20,8 @@ Para garantizar la compatibilidad y evitar posibles fallos, se recomienda utiliz
 ## 🔧 Instalación e Ejecucion
 1. Clonar el repositorio:
    ```sh
-   git clone https://github.com/tu-repositorio.git
-   cd prueba-migracion/migracion-datos
+   git clone https://github.com/Eaguiwa/prueba-migracion.git
+   cd migracion-datos
    ```
 2. Instalar dependencias:
    ```sh
@@ -135,8 +135,8 @@ Para garantizar la compatibilidad y evitar posibles fallos, se recomienda utiliz
 ## 🔧 Instalación e Ejecucion
 1. Clonar el repositorio:
    ```sh
-   git clone https://github.com/tu-repositorio.git
-   cd prueba-migracion/api
+   git clone https://github.com/Eaguiwa/prueba-migracion.git
+   cd api
    ```
 2. Instalar dependencias:
    ```sh
