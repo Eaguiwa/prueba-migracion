@@ -112,26 +112,6 @@ Para garantizar la compatibilidad y evitar posibles fallos, se recomienda utiliz
 - **Knex.js**
 - **dotenv**
 
-## 📂 Estructura del Proyecto
-```
-📂 api/
-│── 📂 src/
-│   │── 📂 config/        
-│   │   ├── database.js   # Configuración de conexión a la base de datos
-│   │
-│   │── 📂 routes/        # Definición de las rutas de la API
-│   │
-│   │── 📂 controllers/   # Definición de Controladores
-│   │
-│   │── 📂 services/      # Definición Servicios
-│   │
-│   │── app.js           # Configuración de Express y carga de rutas
-│   │── server.js        # Punto de entrada de la aplicación
-│
-│── .env                 # Archivo de configuración de variables de entorno (BD)
-
-
-
 ## 🔧 Instalación e Ejecucion
 1. Clonar el repositorio:
    ```sh
@@ -155,7 +135,31 @@ Para garantizar la compatibilidad y evitar posibles fallos, se recomienda utiliz
    npm start
    ```
 
+
+## 📂 Estructura del Proyecto
+```
+📂 api/
+│── 📂 src/
+│   │── 📂 config/        
+│   │   ├── database.js   # Configuración de conexión a la base de datos
+│   │
+│   │── 📂 routes/        # Definición de las rutas de la API
+│   │
+│   │── 📂 controllers/   # Definición de Controladores
+│   │
+│   │── 📂 services/      # Definición Servicios
+│   │
+│   │── app.js           # Configuración de Express y carga de rutas
+│   │── server.js        # Punto de entrada de la aplicación
+│
+│── .env                 # Archivo de configuración de variables de entorno (BD)
+
+
+```
+
 ## 📌 Endpoints Disponibles
+
+Utilizar un cliente como Postman para realizar pruebas de los endpoints de la API.
 
 ### 1️⃣ **Pacientes**
 - **`GET /api/pacientes`** → Obtiene la lista de pacientes.
