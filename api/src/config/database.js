@@ -1,5 +1,5 @@
 const knex = require('knex');
-require('dotenv').config({ path: '../.env' });
+require('dotenv').config();
 
 // conexion a la BD
 const db = knex({
